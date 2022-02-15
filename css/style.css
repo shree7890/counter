@@ -1,0 +1,40 @@
+.counter {
+  background: url("../images/counter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10rem 0;
+  position: relative;
+}
+.counter::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.counter-up {
+  z-index: 99999;
+  position: relative;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 0px 10px 0px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.counter-up h4 {
+  color: #fff;
+  font-size: 18px;
+}
+.counter-up h1 {
+  color: #fff;
+}
+.counter-upcreate {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 60px 0px;
+}
+.count {
+  color: #fff;
+}
